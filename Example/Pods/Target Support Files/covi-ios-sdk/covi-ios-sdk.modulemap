@@ -1,0 +1,6 @@
+framework module covi_ios_sdk {
+  umbrella header "covi-ios-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

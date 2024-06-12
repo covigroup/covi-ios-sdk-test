@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013520BCAA05D987BF9F433006A634CE /* covi-ios-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3F15B7935223EB63AAF175D9996320 /* covi-ios-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		180B601C9C0F8ED6D7929A26DF0E2EC6 /* covi-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 936491035212ABA096E0466F327B4E51 /* covi-ios-sdk-dummy.m */; };
+		569D89884930D66A4C3ED2FC09855311 /* Pods-covi-ios-sdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C49CAB3EDC7F8D47412DBB33F2E2F92B /* Pods-covi-ios-sdk_Example-dummy.m */; };
+		59CB636A836CFFD8CFC449403D1DED45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6D04745426952AE4FD14D3335300555B /* Pods-covi-ios-sdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 462A9F4DE775CD6834CA49A6BB264067 /* Pods-covi-ios-sdk_Tests-dummy.m */; };
+		7D313FC82CFC41352E9574DCB0CBDD04 /* Pods-covi-ios-sdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F0A34D5ED4AE35134C7FAC56F87A3A /* Pods-covi-ios-sdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E7E7044CB4B94443F8164E5545CF547 /* Pods-covi-ios-sdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF8E534F837FF49EBDFADB51F7EEB90 /* Pods-covi-ios-sdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86A7D73CA381C709D029D39C73790184 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BAC2FC1110FB38B05E5047DDBD02C837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FE17613F3AFD42A62752E1179EE5B5C6 /* YYSimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9F3CF4CFF8B6A913686065AAE9E0B /* YYSimpleAlert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CE66DE238BC7FE01AC152E761DF318C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C1A2427A8ED42CF4E9E4D51A08C6371;
+			remoteInfo = "covi-ios-sdk";
+		};
+		67834B3FDB8DF3B3CA12D686CEEAF1C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46293A6D3189AE03E6ED482CACC0BB4B;
+			remoteInfo = "Pods-covi-ios-sdk_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F0A34D5ED4AE35134C7FAC56F87A3A /* Pods-covi-ios-sdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-covi-ios-sdk_Example-umbrella.h"; sourceTree = "<group>"; };
+		253A8EEA39C4ABFB9DD3647DEAF65431 /* covi-ios-sdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "covi-ios-sdk.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		257E37EEB7E0CAF36C9F730D062F7A77 /* Pods-covi-ios-sdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-covi-ios-sdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2618DE8A812425F939E2B3494718C264 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		39D82314C055CD34288CA7892CACC4A7 /* covi-ios-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "covi-ios-sdk-Info.plist"; sourceTree = "<group>"; };
+		3A3F15B7935223EB63AAF175D9996320 /* covi-ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "covi-ios-sdk-umbrella.h"; sourceTree = "<group>"; };
+		3D95606844956F9FC9FB2840DB88AC95 /* Pods-covi-ios-sdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-covi-ios-sdk_Example.modulemap"; sourceTree = "<group>"; };
+		40540D691FB4D3FE0B4F0F7D081F7BFB /* Pods-covi-ios-sdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covi-ios-sdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		462A9F4DE775CD6834CA49A6BB264067 /* Pods-covi-ios-sdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-covi-ios-sdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		4809C235C144893B7D87CDB858764987 /* Pods-covi-ios-sdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-covi-ios-sdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		497E56987BF51F842C26F27432899F7E /* covi-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "covi-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		5BF8E534F837FF49EBDFADB51F7EEB90 /* Pods-covi-ios-sdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-covi-ios-sdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		65C71BBF49E263171579711662A9AC99 /* Pods-covi-ios-sdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covi-ios-sdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		68047CDED917A375F24B356C5CFFC7B7 /* covi-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "covi-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		71B06DBE1018885BBEF99F814AF5A189 /* covi-ios-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "covi-ios-sdk.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F37D41138F1834E93368218F368D0D6 /* Pods-covi-ios-sdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-covi-ios-sdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87ACD87F2190F85EE3894023A0A5AF84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		92B064EC8BEA426CA1F7E09E3E8110D6 /* Pods-covi-ios-sdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-covi-ios-sdk_Example-Info.plist"; sourceTree = "<group>"; };
+		936491035212ABA096E0466F327B4E51 /* covi-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "covi-ios-sdk-dummy.m"; sourceTree = "<group>"; };
+		98022FB5BC12765C138B23EC8EDF73D2 /* Pods-covi-ios-sdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covi-ios-sdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		98E5726A822C1F20A02C69970BBF0625 /* Pods-covi-ios-sdk_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-covi-ios-sdk_Example"; path = Pods_covi_ios_sdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7DF3F38D7C4D75A249F65B93261D0A /* Pods-covi-ios-sdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-covi-ios-sdk_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A74BB494E9FB0585A06BFA0FA6EA1F3C /* covi-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "covi-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
+		AE4ED16EB1BA6325571077C069AEE5B0 /* Pods-covi-ios-sdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-covi-ios-sdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B533A553F802573F0CDAAB352ED27556 /* Pods-covi-ios-sdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-covi-ios-sdk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C49CAB3EDC7F8D47412DBB33F2E2F92B /* Pods-covi-ios-sdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-covi-ios-sdk_Example-dummy.m"; sourceTree = "<group>"; };
+		D43565630729C8AF3E337ED10D508C4F /* Pods-covi-ios-sdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-covi-ios-sdk_Tests.modulemap"; sourceTree = "<group>"; };
+		DC106249753EB57DE5446DC771CC33E6 /* covi_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = covi_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F9F3CF4CFF8B6A913686065AAE9E0B /* YYSimpleAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YYSimpleAlert.swift; path = "covi-ios-sdk/Classes/YYSimpleAlert.swift"; sourceTree = "<group>"; };
+		F41E47F92EC7442F7D0B45C5DF5B846C /* Pods-covi-ios-sdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-covi-ios-sdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F56913A7A62E8E1696FC657712FB9E4D /* Pods-covi-ios-sdk_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-covi-ios-sdk_Tests"; path = Pods_covi_ios_sdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E83C92E5FCBDFB380CAFB5C03A2AFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CB636A836CFFD8CFC449403D1DED45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95833D513471CE2C55BCBB74031C1750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC2FC1110FB38B05E5047DDBD02C837 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DBA56900676BE9C3364C562581CB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A7D73CA381C709D029D39C73790184 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64F674A4AA83032A4C38AC81BED81351 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2402DA547FE419D586A38D4A0184321 /* covi-ios-sdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7601E2281B8280AD1EFB085F3679CB3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71B06DBE1018885BBEF99F814AF5A189 /* covi-ios-sdk.modulemap */,
+				936491035212ABA096E0466F327B4E51 /* covi-ios-sdk-dummy.m */,
+				39D82314C055CD34288CA7892CACC4A7 /* covi-ios-sdk-Info.plist */,
+				A74BB494E9FB0585A06BFA0FA6EA1F3C /* covi-ios-sdk-prefix.pch */,
+				3A3F15B7935223EB63AAF175D9996320 /* covi-ios-sdk-umbrella.h */,
+				497E56987BF51F842C26F27432899F7E /* covi-ios-sdk.debug.xcconfig */,
+				68047CDED917A375F24B356C5CFFC7B7 /* covi-ios-sdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/covi-ios-sdk";
+			sourceTree = "<group>";
+		};
+		86D415AA1AE20E190213AB320AEB47FB /* Pods-covi-ios-sdk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D43565630729C8AF3E337ED10D508C4F /* Pods-covi-ios-sdk_Tests.modulemap */,
+				7F37D41138F1834E93368218F368D0D6 /* Pods-covi-ios-sdk_Tests-acknowledgements.markdown */,
+				257E37EEB7E0CAF36C9F730D062F7A77 /* Pods-covi-ios-sdk_Tests-acknowledgements.plist */,
+				462A9F4DE775CD6834CA49A6BB264067 /* Pods-covi-ios-sdk_Tests-dummy.m */,
+				9D7DF3F38D7C4D75A249F65B93261D0A /* Pods-covi-ios-sdk_Tests-Info.plist */,
+				5BF8E534F837FF49EBDFADB51F7EEB90 /* Pods-covi-ios-sdk_Tests-umbrella.h */,
+				65C71BBF49E263171579711662A9AC99 /* Pods-covi-ios-sdk_Tests.debug.xcconfig */,
+				AE4ED16EB1BA6325571077C069AEE5B0 /* Pods-covi-ios-sdk_Tests.release.xcconfig */,
+			);
+			name = "Pods-covi-ios-sdk_Tests";
+			path = "Target Support Files/Pods-covi-ios-sdk_Tests";
+			sourceTree = "<group>";
+		};
+		B162BEEC8148C16854FCF32C5B866E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC106249753EB57DE5446DC771CC33E6 /* covi_ios_sdk.framework */,
+				98E5726A822C1F20A02C69970BBF0625 /* Pods-covi-ios-sdk_Example */,
+				F56913A7A62E8E1696FC657712FB9E4D /* Pods-covi-ios-sdk_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2402DA547FE419D586A38D4A0184321 /* covi-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				F2F9F3CF4CFF8B6A913686065AAE9E0B /* YYSimpleAlert.swift */,
+				EFED668314B3D0996115DDD0EC74E080 /* Pod */,
+				7601E2281B8280AD1EFB085F3679CB3B /* Support Files */,
+			);
+			name = "covi-ios-sdk";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C1D914967E214F3CDBD62622385F6433 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD2C20E1DFC3793825CF985C50227E6 /* Pods-covi-ios-sdk_Example */,
+				86D415AA1AE20E190213AB320AEB47FB /* Pods-covi-ios-sdk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CCD2C20E1DFC3793825CF985C50227E6 /* Pods-covi-ios-sdk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3D95606844956F9FC9FB2840DB88AC95 /* Pods-covi-ios-sdk_Example.modulemap */,
+				F41E47F92EC7442F7D0B45C5DF5B846C /* Pods-covi-ios-sdk_Example-acknowledgements.markdown */,
+				4809C235C144893B7D87CDB858764987 /* Pods-covi-ios-sdk_Example-acknowledgements.plist */,
+				C49CAB3EDC7F8D47412DBB33F2E2F92B /* Pods-covi-ios-sdk_Example-dummy.m */,
+				B533A553F802573F0CDAAB352ED27556 /* Pods-covi-ios-sdk_Example-frameworks.sh */,
+				92B064EC8BEA426CA1F7E09E3E8110D6 /* Pods-covi-ios-sdk_Example-Info.plist */,
+				14F0A34D5ED4AE35134C7FAC56F87A3A /* Pods-covi-ios-sdk_Example-umbrella.h */,
+				40540D691FB4D3FE0B4F0F7D081F7BFB /* Pods-covi-ios-sdk_Example.debug.xcconfig */,
+				98022FB5BC12765C138B23EC8EDF73D2 /* Pods-covi-ios-sdk_Example.release.xcconfig */,
+			);
+			name = "Pods-covi-ios-sdk_Example";
+			path = "Target Support Files/Pods-covi-ios-sdk_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				64F674A4AA83032A4C38AC81BED81351 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B162BEEC8148C16854FCF32C5B866E2A /* Products */,
+				C1D914967E214F3CDBD62622385F6433 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFED668314B3D0996115DDD0EC74E080 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				253A8EEA39C4ABFB9DD3647DEAF65431 /* covi-ios-sdk.podspec */,
+				87ACD87F2190F85EE3894023A0A5AF84 /* LICENSE */,
+				2618DE8A812425F939E2B3494718C264 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		192CEB25040BDA63742D4FFB4AB5E42A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013520BCAA05D987BF9F433006A634CE /* covi-ios-sdk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3E29F2634D8B5B4E7EA15F265B40AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7E7044CB4B94443F8164E5545CF547 /* Pods-covi-ios-sdk_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D232AF7DE98953064F0AEBE21CEE8AE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D313FC82CFC41352E9574DCB0CBDD04 /* Pods-covi-ios-sdk_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2DCB37F4B580D12AD24F80F6D0CFD6E1 /* Pods-covi-ios-sdk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C22B7DA2D44A96040A563C1336C1B8 /* Build configuration list for PBXNativeTarget "Pods-covi-ios-sdk_Tests" */;
+			buildPhases = (
+				7F3E29F2634D8B5B4E7EA15F265B40AC /* Headers */,
+				A561C3BC86056331D2D97FB8FE8F84D5 /* Sources */,
+				95DBA56900676BE9C3364C562581CB79 /* Frameworks */,
+				787C555C7554FA3C0288BE9541A62BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D46D5BC9AAF5940C6B9A82B3078B37 /* PBXTargetDependency */,
+			);
+			name = "Pods-covi-ios-sdk_Tests";
+			productName = Pods_covi_ios_sdk_Tests;
+			productReference = F56913A7A62E8E1696FC657712FB9E4D /* Pods-covi-ios-sdk_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		46293A6D3189AE03E6ED482CACC0BB4B /* Pods-covi-ios-sdk_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9B88FD0151FE7627E03F4BA9300CF9 /* Build configuration list for PBXNativeTarget "Pods-covi-ios-sdk_Example" */;
+			buildPhases = (
+				D232AF7DE98953064F0AEBE21CEE8AE2 /* Headers */,
+				BC25D7463D231369EF79B1ABD326A2E8 /* Sources */,
+				8E83C92E5FCBDFB380CAFB5C03A2AFC0 /* Frameworks */,
+				6DC8EA8C1C297FC0D6C9B69938D8E279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B0431DBEBCA335634B2BA009A273BEB /* PBXTargetDependency */,
+			);
+			name = "Pods-covi-ios-sdk_Example";
+			productName = Pods_covi_ios_sdk_Example;
+			productReference = 98E5726A822C1F20A02C69970BBF0625 /* Pods-covi-ios-sdk_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C1A2427A8ED42CF4E9E4D51A08C6371 /* covi-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BA429A8501F7E886C1945EF6E22EA7 /* Build configuration list for PBXNativeTarget "covi-ios-sdk" */;
+			buildPhases = (
+				192CEB25040BDA63742D4FFB4AB5E42A /* Headers */,
+				566A2B692090B6434FF67BAD81E7F814 /* Sources */,
+				95833D513471CE2C55BCBB74031C1750 /* Frameworks */,
+				C759384457D1AE45355CCE0983FD80E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "covi-ios-sdk";
+			productName = covi_ios_sdk;
+			productReference = DC106249753EB57DE5446DC771CC33E6 /* covi_ios_sdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B162BEEC8148C16854FCF32C5B866E2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C1A2427A8ED42CF4E9E4D51A08C6371 /* covi-ios-sdk */,
+				46293A6D3189AE03E6ED482CACC0BB4B /* Pods-covi-ios-sdk_Example */,
+				2DCB37F4B580D12AD24F80F6D0CFD6E1 /* Pods-covi-ios-sdk_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DC8EA8C1C297FC0D6C9B69938D8E279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787C555C7554FA3C0288BE9541A62BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C759384457D1AE45355CCE0983FD80E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		566A2B692090B6434FF67BAD81E7F814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180B601C9C0F8ED6D7929A26DF0E2EC6 /* covi-ios-sdk-dummy.m in Sources */,
+				FE17613F3AFD42A62752E1179EE5B5C6 /* YYSimpleAlert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A561C3BC86056331D2D97FB8FE8F84D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D04745426952AE4FD14D3335300555B /* Pods-covi-ios-sdk_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC25D7463D231369EF79B1ABD326A2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569D89884930D66A4C3ED2FC09855311 /* Pods-covi-ios-sdk_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D46D5BC9AAF5940C6B9A82B3078B37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-covi-ios-sdk_Example";
+			target = 46293A6D3189AE03E6ED482CACC0BB4B /* Pods-covi-ios-sdk_Example */;
+			targetProxy = 67834B3FDB8DF3B3CA12D686CEEAF1C9 /* PBXContainerItemProxy */;
+		};
+		4B0431DBEBCA335634B2BA009A273BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "covi-ios-sdk";
+			target = 7C1A2427A8ED42CF4E9E4D51A08C6371 /* covi-ios-sdk */;
+			targetProxy = 2CE66DE238BC7FE01AC152E761DF318C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		181A492A0360F7DA62852DA916D2A940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40540D691FB4D3FE0B4F0F7D081F7BFB /* Pods-covi-ios-sdk_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-covi-ios-sdk_Example/Pods-covi-ios-sdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-covi-ios-sdk_Example/Pods-covi-ios-sdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21C2F75EDD0CDC168111B4FE3169EA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C71BBF49E263171579711662A9AC99 /* Pods-covi-ios-sdk_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-covi-ios-sdk_Tests/Pods-covi-ios-sdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-covi-ios-sdk_Tests/Pods-covi-ios-sdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2582285BFAB3E56CD16FF3F863C5F88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68047CDED917A375F24B356C5CFFC7B7 /* covi-ios-sdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/covi-ios-sdk/covi-ios-sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/covi-ios-sdk/covi-ios-sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/covi-ios-sdk/covi-ios-sdk.modulemap";
+				PRODUCT_MODULE_NAME = covi_ios_sdk;
+				PRODUCT_NAME = covi_ios_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B534530629FDEA7CDC32E0F59E7C57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98022FB5BC12765C138B23EC8EDF73D2 /* Pods-covi-ios-sdk_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-covi-ios-sdk_Example/Pods-covi-ios-sdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-covi-ios-sdk_Example/Pods-covi-ios-sdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C604322E74103F06C89EA0345736DC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4ED16EB1BA6325571077C069AEE5B0 /* Pods-covi-ios-sdk_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-covi-ios-sdk_Tests/Pods-covi-ios-sdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-covi-ios-sdk_Tests/Pods-covi-ios-sdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DD3ADF3C89250AD8A90D3EEDEFF3DD0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497E56987BF51F842C26F27432899F7E /* covi-ios-sdk.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/covi-ios-sdk/covi-ios-sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/covi-ios-sdk/covi-ios-sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/covi-ios-sdk/covi-ios-sdk.modulemap";
+				PRODUCT_MODULE_NAME = covi_ios_sdk;
+				PRODUCT_NAME = covi_ios_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29C22B7DA2D44A96040A563C1336C1B8 /* Build configuration list for PBXNativeTarget "Pods-covi-ios-sdk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C2F75EDD0CDC168111B4FE3169EA09 /* Debug */,
+				C604322E74103F06C89EA0345736DC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9B88FD0151FE7627E03F4BA9300CF9 /* Build configuration list for PBXNativeTarget "Pods-covi-ios-sdk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181A492A0360F7DA62852DA916D2A940 /* Debug */,
+				7B534530629FDEA7CDC32E0F59E7C57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BA429A8501F7E886C1945EF6E22EA7 /* Build configuration list for PBXNativeTarget "covi-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3ADF3C89250AD8A90D3EEDEFF3DD0A /* Debug */,
+				2582285BFAB3E56CD16FF3F863C5F88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

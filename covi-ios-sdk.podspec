@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'covi-ios-sdk'
-  s.version      = "0.0.1"
+  s.version      = "0.0.4"
   s.swift_versions = '5.0'
   s.summary      = "SDK for inserting CoviPlayer"
 

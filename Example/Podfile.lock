@@ -1,0 +1,16 @@
+PODS:
+  - covi-ios-sdk (0.1.0)
+
+DEPENDENCIES:
+  - covi-ios-sdk (from `../`)
+
+EXTERNAL SOURCES:
+  covi-ios-sdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  covi-ios-sdk: fedc7238c561e1ef5a38a7154fb317fc654ec56e
+
+PODFILE CHECKSUM: f089efa730fefca1ecf06c35b9a2dc5a5fd6e35a
+
+COCOAPODS: 1.14.3

@@ -1,0 +1,22 @@
+{
+  "name": "covi-ios-sdk",
+  "version": "0.1.0",
+  "summary": "A short description of covi-ios-sdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/covi-ensil/covi-ios-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "covi-ensil": "ensil@covi.co.kr"
+  },
+  "source": {
+    "git": "https://github.com/covi-ensil/covi-ios-sdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "covi-ios-sdk/Classes/**/*"
+}

@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showAlert(_ sender: UIButton) {
-        YYSimpleAlert(title: "Is this simple?", confirm: "Yes") {
+        YYSimpleAlert(title: "Is this simple?", confirm: "YesYes") {
             print("It is so simple")
         }.show(in: view)
     }
